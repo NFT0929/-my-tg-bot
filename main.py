@@ -10,7 +10,7 @@ from waitress import serve
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
-app = Flask(name)
+app = Flask(_name_)
 
 
 @dp.message(CommandStart())
