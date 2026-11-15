@@ -15,7 +15,7 @@ app = Flask(name)
 
 @dp.message(CommandStart())
 async def start_handler(message: types.Message):
-    photo = types.FSInputFile("image_12345.jpg")
+    photo = types.FSInputFile("IMG_20261115_022738.jpg")
     caption = (
         "Переходи, тут розыгрыши, и раздачи, так же можно выиграть NFT подарок\n"
         "👇👇👇👇👇👇👇👇\n"
